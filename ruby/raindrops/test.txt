@@ -1,0 +1,173 @@
+Run options: --seed 52054
+
+# Running:
+
+conversion: {"Pling"=>3, "Plang"=>5, "Plong"=>7}
+Fconversion: {"Pling"=>3, "Plang"=>5, "Plong"=>7}
+Fconversion: {"Pling"=>3, "Plang"=>5, "Plong"=>7}
+Fconversion: {"Pling"=>3, "Plang"=>5, "Plong"=>7}
+Fconversion: {"Pling"=>3, "Plang"=>5, "Plong"=>7}
+Fconversion: {"Pling"=>3, "Plang"=>5, "Plong"=>7}
+Fconversion: {"Pling"=>3, "Plang"=>5, "Plong"=>7}
+Fconversion: {"Pling"=>3, "Plang"=>5, "Plong"=>7}
+Fconversion: {"Pling"=>3, "Plang"=>5, "Plong"=>7}
+Fconversion: {"Pling"=>3, "Plang"=>5, "Plong"=>7}
+Fconversion: {"Pling"=>3, "Plang"=>5, "Plong"=>7}
+Fconversion: {"Pling"=>3, "Plang"=>5, "Plong"=>7}
+Fconversion: {"Pling"=>3, "Plang"=>5, "Plong"=>7}
+Fconversion: {"Pling"=>3, "Plang"=>5, "Plong"=>7}
+Fconversion: {"Pling"=>3, "Plang"=>5, "Plong"=>7}
+F.
+
+Finished in 0.092456s, 173.0558 runs/s, 173.0558 assertions/s.
+
+  1) Failure:
+RaindropsTest#test_49 [raindrops_test.rb:72]:
+--- expected
++++ actual
+@@ -1 +1 @@
+-"Plong"
++{"Pling"=>3, "Plang"=>5, "Plong"=>7}
+
+
+
+  2) Failure:
+RaindropsTest#test_10 [raindrops_test.rb:42]:
+--- expected
++++ actual
+@@ -1 +1 @@
+-"Plang"
++{"Pling"=>3, "Plang"=>5, "Plong"=>7}
+
+
+
+  3) Failure:
+RaindropsTest#test_1 [raindrops_test.rb:12]:
+--- expected
++++ actual
+@@ -1 +1 @@
+-"1"
++{"Pling"=>3, "Plang"=>5, "Plong"=>7}
+
+
+
+  4) Failure:
+RaindropsTest#test_6 [raindrops_test.rb:32]:
+--- expected
++++ actual
+@@ -1 +1 @@
+-"Pling"
++{"Pling"=>3, "Plang"=>5, "Plong"=>7}
+
+
+
+  5) Failure:
+RaindropsTest#test_105 [raindrops_test.rb:82]:
+--- expected
++++ actual
+@@ -1 +1 @@
+-"PlingPlangPlong"
++{"Pling"=>3, "Plang"=>5, "Plong"=>7}
+
+
+
+  6) Failure:
+RaindropsTest#test_25 [raindrops_test.rb:62]:
+--- expected
++++ actual
+@@ -1 +1 @@
+-"Plang"
++{"Pling"=>3, "Plang"=>5, "Plong"=>7}
+
+
+
+  7) Failure:
+RaindropsTest#test_35 [raindrops_test.rb:67]:
+--- expected
++++ actual
+@@ -1 +1 @@
+-"PlangPlong"
++{"Pling"=>3, "Plang"=>5, "Plong"=>7}
+
+
+
+  8) Failure:
+RaindropsTest#test_52 [raindrops_test.rb:77]:
+--- expected
++++ actual
+@@ -1 +1 @@
+-"52"
++{"Pling"=>3, "Plang"=>5, "Plong"=>7}
+
+
+
+  9) Failure:
+RaindropsTest#test_21 [raindrops_test.rb:57]:
+--- expected
++++ actual
+@@ -1 +1 @@
+-"PlingPlong"
++{"Pling"=>3, "Plang"=>5, "Plong"=>7}
+
+
+
+ 10) Failure:
+RaindropsTest#test_9 [raindrops_test.rb:37]:
+--- expected
++++ actual
+@@ -1 +1 @@
+-"Pling"
++{"Pling"=>3, "Plang"=>5, "Plong"=>7}
+
+
+
+ 11) Failure:
+RaindropsTest#test_5 [raindrops_test.rb:22]:
+--- expected
++++ actual
+@@ -1 +1 @@
+-"Plang"
++{"Pling"=>3, "Plang"=>5, "Plong"=>7}
+
+
+
+ 12) Failure:
+RaindropsTest#test_7 [raindrops_test.rb:27]:
+--- expected
++++ actual
+@@ -1 +1 @@
+-"Plong"
++{"Pling"=>3, "Plang"=>5, "Plong"=>7}
+
+
+
+ 13) Failure:
+RaindropsTest#test_14 [raindrops_test.rb:47]:
+--- expected
++++ actual
+@@ -1 +1 @@
+-"Plong"
++{"Pling"=>3, "Plang"=>5, "Plong"=>7}
+
+
+
+ 14) Failure:
+RaindropsTest#test_15 [raindrops_test.rb:52]:
+--- expected
++++ actual
+@@ -1 +1 @@
+-"PlingPlang"
++{"Pling"=>3, "Plang"=>5, "Plong"=>7}
+
+
+
+ 15) Failure:
+RaindropsTest#test_3 [raindrops_test.rb:17]:
+--- expected
++++ actual
+@@ -1 +1 @@
+-"Pling"
++{"Pling"=>3, "Plang"=>5, "Plong"=>7}
+
+
+16 runs, 16 assertions, 15 failures, 0 errors, 0 skips
